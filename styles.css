@@ -174,7 +174,7 @@ p {
 
 /* <<<< CALL DONACION >>>> */
 #donacion {
-    background-color: #F2490C;
+    background-image: linear-gradient(to left, #FF6C00, #F2490C);
     padding: 40px 138px;
     display: flex;
     justify-content: space-around;
