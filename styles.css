@@ -105,6 +105,11 @@ p {
 
 .slide_foto {
     margin-left: -60px;
+    transition: scale 5.5s;
+}
+
+.slide_foto:hover {
+    transform: scale(1.1);
 }
 
 .slide_secciones {
