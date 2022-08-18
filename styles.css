@@ -105,7 +105,7 @@ p {
 
 .slide_foto {
     margin-left: -60px;
-    transition: scale 5.5s;
+    transition: 1s;
 }
 
 .slide_foto:hover {
@@ -113,10 +113,8 @@ p {
 }
 
 .slide_secciones {
-    width: 100%;
-    padding: 60px 138px;
-    text-align: center;
-
+    width: 80%;
+    margin: 100px auto;
 }
 
 /* <<<< SECCION TRATAMIENTO >>>> */
@@ -204,6 +202,7 @@ p {
     margin: 60px 138px 60px 138px;
     grid-column-gap: 30px;
 }
+
 .titulo {
     grid-column: 1/4;
     margin-bottom: 30px;
@@ -267,6 +266,7 @@ footer a i {
         width: 80%;
         margin-top: 140px;
     }
+
     .slide_texto {
         grid-column: 1/2;
         align-self: stretch;
@@ -278,7 +278,7 @@ footer a i {
     .slide_foto {
         margin-left: auto;
     }
-    
+
     .h1 {
         font-size: 32px;
     }
@@ -298,7 +298,7 @@ footer a i {
     .ico1,
     .ico2,
     .ico3,
-    .ico4 { 
+    .ico4 {
         display: none;
     }
 
@@ -308,19 +308,19 @@ footer a i {
         grid-template-rows: auto auto auto auto auto;
         justify-content: center;
     }
-    
+
     .nota1 {
         grid-column: 1/2;
         grid-row: 2/3;
         margin: 0px;
     }
-    
+
     .nota2 {
         grid-column: 1/2;
         grid-row: 3/4;
         margin: 0px;
     }
-    
+
     .nota3 {
         grid-column: 1/2;
         grid-row: 4/5;
@@ -333,6 +333,7 @@ footer a i {
         align-items: flex-start;
         padding: 40px 60px;
     }
+
     footer {
         display: grid;
         grid-template-columns: 1fr;
@@ -344,7 +345,7 @@ footer a i {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    
+
     .redes {
         grid-column: 1/2;
         grid-row: 2/3;
